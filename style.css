@@ -452,9 +452,9 @@ padding-left: 70px;
   font-size: 14px;
 }
 .about-us{
-  background-color: #a0edaf;
-  margin-right: 30px;
-  margin-left: 30px;
+  background-color: #FCF3CF;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
 
@@ -463,13 +463,17 @@ padding-left: 70px;
 
 .offer{
   background: #a0edaf;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
 
 
 
+
+}
+.texto{
+  margin-left: -30px;
 
 }
 .col-2 video{
@@ -702,7 +706,7 @@ input{
     padding: 5px;
     margin: 30px 50;
     margin top: 25px;
-} 
+}
 .btn2{
   display:inline-block;
   background: #adede5;
@@ -725,7 +729,7 @@ input{
     padding: :0;
 }
 .single-product .col-2{
-    
+
 }
 .single-product h4{
     font-weight: bold;
