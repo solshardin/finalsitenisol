@@ -24,7 +24,7 @@ margin-right: auto;
 .navbar{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow: hidden;
     background-color: #fff;
 }
@@ -87,6 +87,7 @@ p{
 .col-2 img{
     max-width: 100%;
     margin-left: 40px;
+    margin-top: 30px;
 
 }
 .col-2 h1{
@@ -254,6 +255,7 @@ p{
   text-align: center;
   font-size: 16px;
   padding-left: 20px;
+  
 }
 .middlebox{
   float: left;
@@ -435,13 +437,36 @@ padding-left: 70px;
 }
 .col-4{
   cursor: pointer;
+  position: relative;
 }
-.products .col-4:hover img{
+
+.col-4:hover img{
   opacity:0.5;
 }
 
-.products .col-4:hover .col-4.1{
-  opacity:1;
+ .col-4:hover input{
+   cursor: pointer;
+  display: block;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Zilla Slab', serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  background-color: #a0edaf;
+}
+.col-4 input{
+  position:absolute;
+  display:none;
+}
+.col-4 input.update{
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  transform: translate(-50%, -50%);
+
 }
 .col-4 h4{
   color: #555;
