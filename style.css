@@ -644,6 +644,98 @@ input[type=submit]:hover {
 
 }
 .footercol-4{
+}
+.col-4 p{
+    font-size: 14px;
+}
 
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 2px;
+}
 
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.col-2 h4{
+  margin: 30px 50;
+  font-size: 18px;
+  padding-top: 10px;
+  margin top: 10px;
+  margin-left: 120px;
+}
+
+.col-2 h3{
+  font-display: block;
+  margin: 30px 50;
+  font-size: 25px;
+  padding-top: 10px;
+  margin top: 10px;
+  margin-left: 120px;
+}
+.col-2 h2{
+  font-display: block;
+  margin: 30px 50;
+  font-size: 25px;
+  padding-top: 50px;
+  margin top: 100px;
+  margin-left: 12px;
+}
+
+input{
+    border: 1px solid #73e6d7;
+    padding: 5px;
+    margin: 30px 50;
+    margin top: 25px;
+} 
+.btn2{
+  display:inline-block;
+  background: #adede5;
+  color: #000000;
+  padding: 12px 30px;
+  margin: 20px 0;
+  margin-left: 10px;
+  border-radius: 50px 50px;
+  margin-left: 10px;
+  transition: background 0.5s
+}
+.btn2:hover{
+  background: #73e6d7;
+}
+
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{
+    padding: :0;
+}
+.single-product .col-2{
+    
+}
+.single-product h4{
+    font-weight: bold;
+}
+.single-product input{
+    width: 50px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right:
+    border: 1px solid
 }
