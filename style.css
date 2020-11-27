@@ -5,7 +5,8 @@
 
 }
 body{
-  font-family: 'Zilla Slab', serif
+  font-family: 'Zilla Slab', serif;
+  background-color: #FAFAF4;
 }
 h1{
   font-family: 'Cormorant Garamond', serif;
@@ -26,14 +27,18 @@ margin-right: auto;
     align-items: center;
     margin-bottom: 20px;
     overflow: hidden;
-    background-color: #fff;
+
+
 }
 .navcont{
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: #fff;
-  margin-left: 380px;
+  float: right;
+  margin-left: 300px;
+  margin-top: auto;
+  margin-bottom: 20px;
+
 }
 
 nav{
@@ -43,6 +48,7 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
+    letter-spacing:2px;
 
 
 }
@@ -631,6 +637,7 @@ input[type=submit]:hover {
 }
 .col-3 .card:hover{
   transform: translateY(-10px);
+  cursor: pointer;
 }
 .widgets{
   margin-top: 50px;
