@@ -74,6 +74,16 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+
+ -webkit-box-orient: vertical;
+ -moz-box-orient: vertical;
+ -webkit-flex-direction: column;
+ -ms-flex-direction: column;
+ flex-direction: column;
 
 
 }
@@ -100,8 +110,8 @@ p{
 .col-2 h1{
   font-family: 'Cormorant Garamond', serif;
   font-size: 50px;
-  line-height: 10px;
-  padding-top: -60px;
+  line-height: 40px;
+
   margin: 25px 0px;
   margin-left: 115px;
 
@@ -359,9 +369,11 @@ width: 100%
 
 }
 .smallcontainer{
+  display: flex;
   height: 200px;
   padding-left: 30px;
   padding-right: 30px;
+  margin: auto;
 }
 .left {
 padding-left: 150px;
@@ -486,14 +498,29 @@ padding-left: 70px;
 
 
 .about-us{
+  display: flex;
   background-color: #FCF3CF;
   margin-right: 50px;
   margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 20px;
+
+  margin: 50px, 50;
 
 }
+.about-us video{
+  width: 100%;
+  margin-right: 20px;
+  padding-right: 20px;
 
+}
+.about-us .textto{
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 
 .offer{
   background: #a0edaf;
@@ -501,18 +528,65 @@ padding-left: 70px;
   margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 
 
+
+}
+.offer video{
+
+width: 100%;
+}
+.offer .textto{
+  background-color: #fff;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 
 }
 .texto{
-  margin-left: -30px;
+  margin:auto;
 
 }
-.col-2 video{
+.offer .texto {
+  padding-left: 20px;
+  margin: auto;
+  padding: auto;
+}
+.offer .texto h1 {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.offer .texto p {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.texto h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.texto p {
+  margin: 30px 50;
+  font-size: 18px;
+  padding-top: 20px;
+  margin top: 25px;
+  padding-bottom: 20px;
 
 }
+.texto .btn{
+  margin:auto;
+
+}
+.offer .texto .btn{
+margin-left: 20px;
+}
+
 .col-2{
   margin-top: -20px;
 }
@@ -521,6 +595,7 @@ padding-left: 70px;
 
 
 .smallcontainer2{
+  display: flex;
   margin-left: 30px;
   margin-right: 30px;
   padding-left: 30px;
@@ -691,7 +766,7 @@ input[type=submit]:hover {
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
-    padding-right: 2px;
+    padding-right: 25px;
 }
 
 .col-4:hover{
