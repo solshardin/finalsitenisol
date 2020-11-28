@@ -780,6 +780,12 @@ input[type=submit]:hover {
     line-height: 60px;
     color: black;
 }
+.sort{
+    text-align: left;
+    margin-left: 110px;
+    font-family: 'Zilla Slab', serif;
+    
+}
 
 .row-2{
     justify-content: space-between;
