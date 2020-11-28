@@ -852,3 +852,21 @@ input{
     margin-right:
     border: 1px solid
 }
+.page-btn{
+    padding-top: 40px;
+    margin: 0 auto 10px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #73e6d7;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #73e6d7;
+    color: white;
+}
